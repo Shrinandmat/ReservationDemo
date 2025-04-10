@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8ee7472fcf2243cd9079ce0e33d07388" Name="Diagram1" ZoomLevel="55">
+        <EntityTypeShape EntityType="RailwayReservationModel.Cancellation" Width="1.5" PointX="12" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RailwayReservationModel.Coach" Width="1.5" PointX="5.25" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RailwayReservationModel.Reservation" Width="1.5" PointX="9.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RailwayReservationModel.Seat" Width="1.5" PointX="7.5" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RailwayReservationModel.Station" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RailwayReservationModel.sysdiagram" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RailwayReservationModel.Train_Schedules" Width="1.5" PointX="5.25" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RailwayReservationModel.Train" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="RailwayReservationModel.User" Width="1.5" PointX="7.5" PointY="3" IsExpanded="true" />
+        <AssociationConnector Association="RailwayReservationModel.FK__Cancellat__reser__6EF57B66" ManuallyRouted="false" />
+        <AssociationConnector Association="RailwayReservationModel.FK__Coaches__train_i__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="RailwayReservationModel.FK__Seats__coach_id__628FA481" ManuallyRouted="false" />
+        <AssociationConnector Association="RailwayReservationModel.FK__Reservati__sched__6A30C649" ManuallyRouted="false" />
+        <AssociationConnector Association="RailwayReservationModel.FK__Reservati__seat___6B24EA82" ManuallyRouted="false" />
+        <AssociationConnector Association="RailwayReservationModel.FK__Reservati__user___693CA210" ManuallyRouted="false" />
+        <AssociationConnector Association="RailwayReservationModel.FK__Train_Sch__stati__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="RailwayReservationModel.FK__Trains__end_stat__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="RailwayReservationModel.FK__Trains__start_st__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="RailwayReservationModel.FK__Train_Sch__train__5812160E" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
